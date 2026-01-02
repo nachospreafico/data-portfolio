@@ -1,0 +1,115 @@
+export const projectsData = [
+  {
+    title: "Fintech A/B Testing Case Study",
+    description:
+      "End-to-end A/B testing project simulating a Revolut-style product experiment. Covers experiment design, hypothesis testing, confidence intervals, effect size, and business interpretation.",
+    tech: ["Python", "Jupyter", "A/B Testing"],
+    links: {
+      github: "#",
+      demo: "#",
+    },
+    featured: true,
+  },
+  {
+    title: "Fintech Product Analytics",
+    description:
+      "A one-page Product Analytics dashboard built to analyze growth, engagement, and monetization for a fintech-style application using SQL Server and Power BI.",
+    tech: ["SQL", "Power BI"],
+    links: {
+      github: "https://github.com/nachospreafico/fintech-product-analytics",
+      demo: "#",
+    },
+    featured: true,
+  },
+  {
+    title: "Churn Analysis Dashboard",
+    description:
+      "Power BI dashboard analyzing churn drivers and high-risk customer segments, designed to support retention strategies.",
+    tech: ["Power BI"],
+    links: {
+      github: "#",
+    },
+    featured: true,
+  },
+  {
+    title: "Web Analytics A/B Testing",
+    description:
+      "This project presents an end-to-end A/B testing analysis using Python, framed around a realistic web analytics use case.",
+    tech: ["Python", "Jupyter Notebooks"],
+    links: {
+      github: "https://github.com/nachospreafico/web-analytics-ab-test",
+    },
+    featured: true,
+  },
+  {
+    title: "SaaS Analytics Dashboard",
+    description:
+      "End-to-end analytics project using SQL Server and Power BI on a synthetic SaaS dataset. Includes SQL views, EDA, and a professional multi-page dashboard focused on product KPIs.",
+    tech: ["SQL", "Power BI", "Python"],
+    links: {
+      github: "#",
+      demo: "#",
+    },
+    featured: true,
+  },
+  {
+    title: "Customer Churn Prediction",
+    description:
+      "Machine learning pipeline to predict customer churn using the Telco dataset. Includes EDA, feature engineering, model training, and evaluation.",
+    tech: ["Python", "Scikit-learn", "ML"],
+    links: {
+      github: "#",
+    },
+    featured: true,
+  },
+  {
+    title: "NHS Waitlist Dashboard",
+    description:
+      "This project presents a multi-page interactive Power BI dashboard that analyzes patient waitlist data from the NHS (UK National Health Service) between January 2018 and March 2021.",
+    tech: ["Power BI", "MS Excel"],
+    links: {
+      github: "https://github.com/nachospreafico/nhs-dashboard",
+    },
+    featured: true,
+  },
+  {
+    title: "Superstore Sales Dashboard",
+    description:
+      "This is an interactive Power BI dashboard I built to analyze the well-known Superstore dataset.",
+    tech: ["Power BI", "MS Excel"],
+    links: {
+      github: "https://github.com/nachospreafico/superstore-dashboard",
+    },
+    featured: true,
+  },
+  {
+    title: "Product Engagement Intelligence Dashboard",
+    description:
+      "One-page Power BI dashboard analyzing user engagement and feature adoption using a synthetic event-level dataset (~90k events).",
+    tech: ["Power BI"],
+    links: {
+      github: "#",
+    },
+    featured: true,
+  },
+  {
+    title: "Streamlit KPI Dashboard",
+    description:
+      "A lightweight interactive dashboard built with Streamlit to visualize key business metrics — Revenue, Profit, and Conversion Rate — over time.",
+    tech: ["Python"],
+    links: {
+      github: "https://github.com/nachospreafico/streamlit-kpi-dashboard",
+    },
+    featured: true,
+  },
+  {
+    title: "Streamlit A/B Test Playground",
+    description:
+      "Interactive Streamlit app for simulating A/B tests, including conversion rates, lift, z-tests, and result interpretation.",
+    tech: ["Python", "Statistics"],
+    links: {
+      github: "#",
+    },
+    featured: true,
+  },
+];
