@@ -13,7 +13,7 @@ export const experienceData = [
       "Applied statistical analysis (trend, correlation, outliers) to improve forecast reliability and scenario planning.",
     ],
     techStack:
-      "Power BI, Python (pandas, NumPy), SQL, SAP S/4HANA, o9 Solutions, BlueYonder/JDA, Manugistics, MS Excel",
+      "Power BI, Python (pandas, NumPy, Matplotlib, seaborn), SQL (MS SQL Server), SAP S/4HANA, o9 Solutions, BlueYonder/JDA, Manugistics, MS Excel",
   },
   {
     role: "Data Analyst · Forecasting & Reporting",
@@ -27,6 +27,7 @@ export const experienceData = [
       "Automated recurring reporting workflows using Python and VBA, reducing manual workload by ~40%.",
       "Partnered with Sales, Marketing, and Finance to analyze forecast variances and recommend data-backed corrective actions.",
     ],
-    techStack: "Power BI, Python (pandas, NumPy), SQL, SAP S/4HANA, MS Excel",
+    techStack:
+      "Power BI, Python (pandas, NumPy), SQL (MS SQL Server), SAP S/4HANA, MS Excel",
   },
 ];

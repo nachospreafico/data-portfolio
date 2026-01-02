@@ -27,8 +27,8 @@ const Contact = () => {
           "
           >
             Interested in my work, a collaboration, or just want to talk data,
-            product, or analytics? The easiest way to reach me is via email,
-            LinkedIn or GitHub.
+            product, or analytics? <br></br> The easiest way to reach me is via
+            email, LinkedIn or GitHub.
           </p>
 
           {/* Contact links */}

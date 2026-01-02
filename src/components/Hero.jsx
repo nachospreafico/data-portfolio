@@ -22,15 +22,14 @@ const Hero = () => {
           "
           >
             I help teams make
-            <span className="text-blue-600"> better product decisions</span>
-            <br className="hidden sm:block" />
-            using data, not opinions.
+            <span className="text-blue-600"> better decisions</span> using data,
+            not opinions.
           </h1>
 
           {/* Profile picture */}
           <img
             src="https://media.licdn.com/dms/image/v2/D4E03AQFQR8vCNY7xjw/profile-displayphoto-crop_800_800/B4EZtBgXgoGkAI-/0/1766330563517?e=1769040000&v=beta&t=6uJ0V3vP4AeoccvMM7WC8OIHF8YKS1hXkNfBjoeb-ks"
-            className="rounded-full md:w-[25%]"
+            className="rounded-full max-w-[320px] sm:w-[50%] mx-auto md:mx-0"
           />
 
           {/* Subheading */}
