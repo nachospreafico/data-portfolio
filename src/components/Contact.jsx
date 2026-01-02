@@ -1,3 +1,7 @@
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-slate-50">
@@ -23,7 +27,8 @@ const Contact = () => {
           "
           >
             Interested in my work, a collaboration, or just want to talk data,
-            product, or analytics? The easiest way to reach me is via LinkedIn.
+            product, or analytics? The easiest way to reach me is via email,
+            LinkedIn or GitHub.
           </p>
 
           {/* Contact links */}
@@ -36,28 +41,28 @@ const Contact = () => {
             gap-4
           "
           >
-            <a
-              href="mailto:nachospreafico06@gmail.com"
+            <p
               className="
                 inline-flex
                 items-center
                 justify-center
                 rounded-xl
-                bg-blue-600
+                border
+                border-slate-300
                 px-6
                 py-3
                 text-sm
                 font-medium
-                text-white
-                hover:bg-blue-700
+                text-slate-700
+                hover:bg-slate-100
                 transition
               "
             >
-              Email me
-            </a>
-
+              nachospreafico06@gmail.com
+              <FontAwesomeIcon icon={faEnvelope} size="xl" className="ml-2" />
+            </p>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/ignacio-spreafico"
               target="_blank"
               rel="noopener noreferrer"
               className="
@@ -77,6 +82,30 @@ const Contact = () => {
               "
             >
               LinkedIn
+              <FontAwesomeIcon icon={faLinkedin} size="xl" className="ml-2" />
+            </a>
+            <a
+              href="https://www.github.com/nachospreafico"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                inline-flex
+                items-center
+                justify-center
+                rounded-xl
+                border
+                border-slate-300
+                px-6
+                py-3
+                text-sm
+                font-medium
+                text-slate-700
+                hover:bg-slate-100
+                transition
+              "
+            >
+              GitHub
+              <FontAwesomeIcon icon={faGithub} size="xl" className="ml-2" />
             </a>
           </div>
         </div>

@@ -5,8 +5,7 @@ export const projectsData = [
       "End-to-end A/B testing project simulating a Revolut-style product experiment. Covers experiment design, hypothesis testing, confidence intervals, effect size, and business interpretation.",
     tech: ["Python", "Jupyter", "A/B Testing"],
     links: {
-      github: "#",
-      demo: "#",
+      github: "https://github.com/nachospreafico/ab_first_topup",
     },
     featured: true,
   },
@@ -17,7 +16,6 @@ export const projectsData = [
     tech: ["SQL", "Power BI"],
     links: {
       github: "https://github.com/nachospreafico/fintech-product-analytics",
-      demo: "#",
     },
     featured: true,
   },
@@ -27,7 +25,7 @@ export const projectsData = [
       "Power BI dashboard analyzing churn drivers and high-risk customer segments, designed to support retention strategies.",
     tech: ["Power BI"],
     links: {
-      github: "#",
+      github: "https://github.com/nachospreafico/churn-analysis-pbi",
     },
     featured: true,
   },
@@ -47,8 +45,8 @@ export const projectsData = [
       "End-to-end analytics project using SQL Server and Power BI on a synthetic SaaS dataset. Includes SQL views, EDA, and a professional multi-page dashboard focused on product KPIs.",
     tech: ["SQL", "Power BI", "Python"],
     links: {
-      github: "#",
-      demo: "#",
+      github:
+        "https://github.com/nachospreafico/saas-analytics-dashboard-powerbi-sql",
     },
     featured: true,
   },
@@ -58,7 +56,7 @@ export const projectsData = [
       "Machine learning pipeline to predict customer churn using the Telco dataset. Includes EDA, feature engineering, model training, and evaluation.",
     tech: ["Python", "Scikit-learn", "ML"],
     links: {
-      github: "#",
+      github: "https://github.com/nachospreafico/customer-churn-prediction",
     },
     featured: true,
   },
@@ -88,7 +86,8 @@ export const projectsData = [
       "One-page Power BI dashboard analyzing user engagement and feature adoption using a synthetic event-level dataset (~90k events).",
     tech: ["Power BI"],
     links: {
-      github: "#",
+      github:
+        "https://github.com/nachospreafico/app-feature-adoption-dashboard",
     },
     featured: true,
   },
@@ -108,7 +107,7 @@ export const projectsData = [
       "Interactive Streamlit app for simulating A/B tests, including conversion rates, lift, z-tests, and result interpretation.",
     tech: ["Python", "Statistics"],
     links: {
-      github: "#",
+      github: "https://github.com/nachospreafico/ab-test-playground",
     },
     featured: true,
   },
