@@ -24,7 +24,9 @@ const ExperienceCard = ({
         })}
       </ul>
 
-      <p className="mt-4 text-xs text-slate-500">Tech Stack: {techStack}</p>
+      <p className="mt-4 text-xs text-slate-500">
+        <span className="underline font-semibold">Tech Stack:</span> {techStack}
+      </p>
     </div>
   );
 };

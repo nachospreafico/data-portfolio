@@ -1,4 +1,5 @@
 import { experienceData } from "./experienceData";
+import { certifications } from "./certificationsData";
 import ExperienceCard from "./ExperienceCard";
 
 const Experience = () => {
@@ -47,6 +48,25 @@ const Experience = () => {
           })}
         </div>
       </div>
+      {/*
+      <div className="max-w-6xl mx-auto mt-10 px-6">
+        <h3
+          className="
+            text-xl
+            sm:text-2xl
+            font-semibold
+            text-slate-900
+          "
+        >
+          Certifications
+        </h3>
+        <ul className="list-disc">
+          {certifications.map((cert, i) => {
+            return <li>{cert.name}</li>;
+          })}
+        </ul>
+      </div>
+      */}
     </section>
   );
 };

@@ -1,3 +1,5 @@
+import profilePicture from "../assets/profile-picture.png";
+
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center">
@@ -28,8 +30,8 @@ const Hero = () => {
 
           {/* Profile picture */}
           <img
-            src="https://media.licdn.com/dms/image/v2/D4E03AQFQR8vCNY7xjw/profile-displayphoto-crop_800_800/B4EZtBgXgoGkAI-/0/1766330563517?e=1769040000&v=beta&t=6uJ0V3vP4AeoccvMM7WC8OIHF8YKS1hXkNfBjoeb-ks"
-            className="rounded-full max-w-[320px] sm:w-[50%] mx-auto md:mx-0"
+            src={profilePicture}
+            className="rounded-full max-w-[300px] sm:w-[50%] mx-auto md:mx-0"
           />
 
           {/* Subheading */}
@@ -42,7 +44,7 @@ const Hero = () => {
             leading-relaxed
           "
           >
-            I’m Nacho, a <strong>data and business analyst</strong> with
+            I’m Nacho, a <strong>Data and Business analyst</strong> with
             experience in forecasting, experimentation, and analytics systems
             that directly support business and product decisions at scale.
           </p>
