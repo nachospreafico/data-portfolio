@@ -42,6 +42,7 @@ const ProjectCard = ({ project }) => {
         {project.links.github && (
           <a
             href={project.links.github}
+            target="_blank"
             className="text-blue-600 hover:underline"
           >
             GitHub

@@ -1,5 +1,16 @@
 export const projectsData = [
   {
+    title: "Predicting Falcon 9 First-Stage Reusability",
+    description:
+      "Data-driven prediction of Falcon 9 first-stage reusability to support launch cost estimation and strategic decision-making.",
+    tech: ["Python", "Jupyter Notebooks", "Machine Learning"],
+    links: {
+      github:
+        "https://github.com/nachospreafico/spacex-falcon9-landing-prediction/",
+    },
+    featured: true,
+  },
+  {
     title: "Fintech A/B Testing Case Study",
     description:
       "End-to-end A/B testing project simulating a Revolut-style product experiment. Covers experiment design, hypothesis testing, confidence intervals, effect size, and business interpretation.",
@@ -37,7 +48,7 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/web-analytics-ab-test",
     },
-    featured: true,
+    featured: false,
   },
   {
     title: "SaaS Analytics Dashboard",
@@ -48,7 +59,7 @@ export const projectsData = [
       github:
         "https://github.com/nachospreafico/saas-analytics-dashboard-powerbi-sql",
     },
-    featured: true,
+    featured: false,
   },
   {
     title: "Customer Churn Prediction",
@@ -58,7 +69,7 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/customer-churn-prediction",
     },
-    featured: true,
+    featured: false,
   },
   {
     title: "NHS Waitlist Dashboard",
@@ -68,7 +79,7 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/nhs-dashboard",
     },
-    featured: true,
+    featured: false,
   },
   {
     title: "Superstore Sales Dashboard",
@@ -78,7 +89,7 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/superstore-dashboard",
     },
-    featured: true,
+    featured: false,
   },
   {
     title: "Product Engagement Intelligence Dashboard",
@@ -89,7 +100,7 @@ export const projectsData = [
       github:
         "https://github.com/nachospreafico/app-feature-adoption-dashboard",
     },
-    featured: true,
+    featured: false,
   },
   {
     title: "Streamlit KPI Dashboard",
@@ -99,7 +110,7 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/streamlit-kpi-dashboard",
     },
-    featured: true,
+    featured: false,
   },
   {
     title: "Streamlit A/B Test Playground",
@@ -109,6 +120,6 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/ab-test-playground",
     },
-    featured: true,
+    featured: false,
   },
 ];
