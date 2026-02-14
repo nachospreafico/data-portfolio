@@ -67,6 +67,24 @@ const Hero = () => {
             </a>
 
             <a
+              href="/Ignacio_Spreafico_Data_Analyst.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                inline-flex items-center justify-center
+                rounded-xl
+                border border-slate-300
+                px-6 py-3
+                text-sm font-medium text-slate-700
+                hover:bg-slate-100
+                transition
+              "
+            >
+              Download CV
+            </a>
+
+            <a
               href="#contact"
               className="
                 inline-flex items-center justify-center
