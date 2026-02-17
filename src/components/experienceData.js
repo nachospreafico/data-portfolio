@@ -29,6 +29,6 @@ export const experienceData = [
       "Partnered with Sales, Marketing, and Finance to analyze forecast variances and recommend data-backed corrective actions.",
     ],
     techStack:
-      "MS Excel, Power BI, Python (pandas, NumPy), SQL (MS SQL Server), SAP S/4HANA",
+      "MS Excel, Power BI, Python (pandas, NumPy), SQL (MS SQL Server), IBM Cognos Analytics, SAP S/4HANA",
   },
 ];
