@@ -6,12 +6,13 @@ export const experienceData = [
     from: "May 2024",
     to: "Present",
     bullets: [
-      "Led global demand planning analytics for seasonal giftset campaigns across Prestige and Consumer Beauty, supporting dozens of markets.",
-      "Designed and deployed a Power BI Quota vs Forecast dashboard (SQL + Python pipelines), reducing Value at Risk (VAR) through earlier reallocation and cancellation decisions.",
-      "Built an end-to-end Python automation pipeline for VAR depletion analysis, cutting manual processing time by ~80%.",
-      "Developed and productionized Power BI tools (SPP-3 Tracker) using ETL logic and advanced DAX to monitor non-sellable inventory.",
-      "Applied statistical analysis (trend, correlation, outliers) to improve forecast reliability and scenario planning.",
+      "Owned global demand planning analytics for multi-million-unit seasonal giftset campaigns across Prestige and Consumer Beauty, influencing stock allocation and launch readiness across dozens of markets.",
+      "Established a structured forecast challenge process, reviewing market submissions against historical performance to improve realism, accountability, and downstream supply decisions.",
+      "Architected and deployed a Quota vs Forecast Power BI dashboard (SQL + Python pipelines) adopted by global stakeholders, driving double-digit reductions in Value at Risk (VAR).",
+      "Applied advanced statistical analysis and scenario modeling to improve forecast accuracy and decision-making under high uncertainty.",
+      "Built and productionized Python automation pipelines to consolidate and transform VAR data, reducing manual processing time by ~80% and accelerating executive decision cycles.",
     ],
+
     techStack:
       "MS Excel, Power BI, Python (pandas, NumPy, Matplotlib, seaborn), SQL (MS SQL Server), SAP S/4HANA, o9 Solutions, BlueYonder/JDA, Manugistics",
   },
