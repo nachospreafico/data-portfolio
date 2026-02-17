@@ -41,6 +41,17 @@ export const projectsData = [
     featured: true,
   },
   {
+    title: "Stroke Risk Prediction",
+    description:
+      "Decision-aware stroke risk scoring engine built with scikit-learn, featuring cost-sensitive threshold optimization.",
+    tech: ["Python", "Machine Learning"],
+    links: {
+      github: "https://github.com/nachospreafico/stroke-risk-prediction",
+    },
+    featured: true,
+  },
+
+  {
     title: "Web Analytics A/B Testing",
     description:
       "This project presents an end-to-end A/B testing analysis using Python, framed around a realistic web analytics use case.",
