@@ -44,7 +44,7 @@ export const projectsData = [
     title: "Stroke Risk Prediction",
     description:
       "Decision-aware stroke risk scoring engine built with scikit-learn, featuring cost-sensitive threshold optimization.",
-    tech: ["Python", "Machine Learning"],
+    tech: ["Python", "Jupyter Notebooks", "Machine Learning"],
     links: {
       github: "https://github.com/nachospreafico/stroke-risk-prediction",
     },
@@ -113,6 +113,7 @@ export const projectsData = [
     },
     featured: false,
   },
+  /*
   {
     title: "Streamlit KPI Dashboard",
     description:
@@ -132,5 +133,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/ab-test-playground",
     },
     featured: false,
-  },
+  }
+  */
+  ,
 ];
