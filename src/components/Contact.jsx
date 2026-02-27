@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-slate-50">
+    <section id="contact" className="py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-2xl">
           {/* Section title */}

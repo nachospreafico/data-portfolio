@@ -4,7 +4,7 @@ import ExperienceCard from "./ExperienceCard";
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-slate-50">
+    <section id="experience" className="py-20">
       <div className="max-w-6xl mx-auto px-6">
         {/* Section header */}
         <div className="mb-12">
@@ -48,25 +48,6 @@ const Experience = () => {
           })}
         </div>
       </div>
-      {/*
-      <div className="max-w-6xl mx-auto mt-10 px-6">
-        <h3
-          className="
-            text-xl
-            sm:text-2xl
-            font-semibold
-            text-slate-900
-          "
-        >
-          Certifications
-        </h3>
-        <ul className="list-disc">
-          {certifications.map((cert, i) => {
-            return <li>{cert.name}</li>;
-          })}
-        </ul>
-      </div>
-      */}
     </section>
   );
 };
