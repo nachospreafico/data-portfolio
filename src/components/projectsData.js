@@ -59,7 +59,7 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/web-analytics-ab-test",
     },
-    featured: false,
+    featured: true,
   },
   {
     title: "SaaS Analytics Dashboard",
