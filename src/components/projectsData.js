@@ -11,6 +11,17 @@ export const projectsData = [
     featured: true,
   },
   {
+    title: "Instant Booking A/B Test",
+    description:
+      "A/B test analysis of an Instant Booking feature in a two-sided marketplace, evaluating its impact on booking conversion and supply-side health, with a focus on balancing user experience improvements and ecosystem stability.",
+    tech: ["Python", "Jupyter", "A/B Testing"],
+    links: {
+      github:
+        "https://github.com/nachospreafico/instant-booking-ab-test-marketplace",
+    },
+    featured: true,
+  },
+  {
     title: "Fintech A/B Testing Case Study",
     description:
       "End-to-end A/B testing project simulating a Revolut-style product experiment. Covers experiment design, hypothesis testing, confidence intervals, effect size, and business interpretation.",
@@ -59,7 +70,7 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/web-analytics-ab-test",
     },
-    featured: true,
+    featured: false,
   },
   {
     title: "SaaS Analytics Dashboard",
