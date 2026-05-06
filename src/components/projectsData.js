@@ -9,6 +9,7 @@ export const projectsData = [
         "https://github.com/nachospreafico/spacex-falcon9-landing-prediction/",
     },
     featured: true,
+    group: "AI & Machine Learning",
   },
   {
     title: "Instant Booking A/B Test",
@@ -20,9 +21,10 @@ export const projectsData = [
         "https://github.com/nachospreafico/instant-booking-ab-test-marketplace",
     },
     featured: true,
+    group: "Analytics",
   },
   {
-    title: "Fintech A/B Testing Case Study",
+    title: "Fintech A/B Test",
     description:
       "End-to-end A/B testing project simulating a Revolut-style product experiment. Covers experiment design, hypothesis testing, confidence intervals, effect size, and business interpretation.",
     tech: ["Python", "Jupyter", "A/B Testing"],
@@ -30,6 +32,18 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/ab_first_topup",
     },
     featured: true,
+    group: "Analytics",
+  },
+  {
+    title: "E-commerce Revenue Pipeline",
+    description:
+      "Production-style data pipeline for cleaning and validating e-commerce transactional data, converting raw inputs into reliable, analysis-ready datasets for business reporting and decision-making.",
+    tech: ["Python", "Power BI"],
+    links: {
+      github: "https://github.com/nachospreafico/ecommerce-revenue-pipeline",
+    },
+    featured: true,
+    group: "Analytics",
   },
   {
     title: "Fintech Product Analytics",
@@ -40,6 +54,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/fintech-product-analytics",
     },
     featured: true,
+    group: "Analytics",
   },
   {
     title: "Churn Analysis Dashboard",
@@ -50,6 +65,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/churn-analysis-pbi",
     },
     featured: true,
+    group: "Analytics",
   },
   {
     title: "Stroke Risk Prediction",
@@ -60,10 +76,11 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/stroke-risk-prediction",
     },
     featured: true,
+    group: "AI & Machine Learning",
   },
 
   {
-    title: "Web Analytics A/B Testing",
+    title: "Web Analytics A/B Test",
     description:
       "This project presents an end-to-end A/B testing analysis using Python, framed around a realistic web analytics use case.",
     tech: ["Python", "Jupyter Notebooks"],
@@ -71,6 +88,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/web-analytics-ab-test",
     },
     featured: false,
+    group: "Analytics",
   },
   {
     title: "SaaS Analytics Dashboard",
@@ -82,16 +100,18 @@ export const projectsData = [
         "https://github.com/nachospreafico/saas-analytics-dashboard-powerbi-sql",
     },
     featured: false,
+    group: "Analytics",
   },
   {
     title: "Customer Churn Prediction",
     description:
       "Machine learning pipeline to predict customer churn using the Telco dataset. Includes EDA, feature engineering, model training, and evaluation.",
-    tech: ["Python", "Scikit-learn", "ML"],
+    tech: ["Python", "Scikit-learn", "Machine Learning"],
     links: {
       github: "https://github.com/nachospreafico/customer-churn-prediction",
     },
     featured: false,
+    group: "AI & Machine Learning",
   },
   {
     title: "NHS Waitlist Dashboard",
@@ -102,6 +122,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/nhs-dashboard",
     },
     featured: false,
+    group: "Analytics",
   },
   {
     title: "Superstore Sales Dashboard",
@@ -112,6 +133,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/superstore-dashboard",
     },
     featured: false,
+    group: "Analytics",
   },
   {
     title: "Product Engagement Intelligence Dashboard",
@@ -123,6 +145,7 @@ export const projectsData = [
         "https://github.com/nachospreafico/app-feature-adoption-dashboard",
     },
     featured: false,
+    group: "Analytics",
   },
   /*
   {
