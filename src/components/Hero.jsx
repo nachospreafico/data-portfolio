@@ -67,7 +67,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/Ignacio_Spreafico_Data_Analyst.pdf"
+              href="/Ignacio_Spreafico.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
