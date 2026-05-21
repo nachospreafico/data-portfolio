@@ -57,12 +57,12 @@ export const projectsData = [
     group: "Analytics",
   },
   {
-    title: "Churn Analysis Dashboard",
+    title: "Fintech User Churn Analysis",
     description:
-      "Power BI dashboard analyzing churn drivers and high-risk customer segments, designed to support retention strategies.",
-    tech: ["Power BI"],
+      "End-to-end churn analysis project for a subscription-based fintech platform, combining SQL, Python, statistical testing, and business-oriented analytics to identify behavioral drivers of high-value user churn.",
+    tech: ["SQL", "Python", "Power BI"],
     links: {
-      github: "https://github.com/nachospreafico/churn-analysis-pbi",
+      github: "https://github.com/nachospreafico/fintech-user-churn-analysis",
     },
     featured: true,
     group: "Analytics",
