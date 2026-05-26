@@ -4,15 +4,40 @@ const ProjectCard = ({ project }) => {
   return (
     <div
       className={`
-                rounded-2xl
-                border
-                p-6
-                bg-white
-                hover:shadow-md
-                transition
-                ${project.featured ? "border-blue-600" : "border-slate-200"}
-              `}
+        relative overflow-hidden
+        rounded-2xl
+        border
+        p-6
+        bg-white
+        hover:shadow-md
+        transition
+        ${project.featured ? "border-blue-600" : "border-slate-200"}
+      `}
     >
+      {/* Under Construction Ribbon */}
+      {project.underConstruction && (
+        <div
+          className="
+      absolute
+      top-7
+      -right-14
+      rotate-45
+      bg-amber-400
+      text-slate-900
+      text-[11px]
+      font-bold
+      uppercase
+      tracking-wider
+      py-1.5
+      w-52
+      text-center
+      shadow-md
+    "
+        >
+          In Progress
+        </div>
+      )}
+
       <h3 className="text-lg font-semibold text-slate-900">{project.title}</h3>
 
       <p className="mt-2 text-sm text-slate-600 leading-relaxed">
@@ -25,12 +50,12 @@ const ProjectCard = ({ project }) => {
           <span
             key={i}
             className="
-                      text-xs
-                      px-2 py-1
-                      rounded-full
-                      bg-slate-100
-                      text-slate-700
-                    "
+              text-xs
+              px-2 py-1
+              rounded-full
+              bg-slate-100
+              text-slate-700
+            "
           >
             {t}
           </span>
