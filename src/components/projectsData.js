@@ -71,14 +71,14 @@ export const projectsData = [
     title: "Supply-Constrained Demand Forecasting Engine",
     description:
       "End-to-end demand forecasting and supply constraint analytics project for a global FMCG environment.",
-    tech: ["SQL", "Python", "Machine Learning", "Power BI"],
+    tech: ["SQL", "Python", "Machine Learning"],
     links: {
       github:
         "https://github.com/nachospreafico/supply-constrained-demand-forecasting-engine",
     },
     featured: true,
     group: "Analytics",
-    underConstruction: true,
+    underConstruction: false,
   },
   {
     title: "Stroke Risk Prediction",
