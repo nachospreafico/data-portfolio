@@ -21,7 +21,7 @@ export const projectsData = [
         "https://github.com/nachospreafico/instant-booking-ab-test-marketplace",
     },
     featured: true,
-    group: "Analytics",
+    group: "Data/Product Analysis",
   },
   {
     title: "Fintech A/B Test",
@@ -32,7 +32,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/ab_first_topup",
     },
     featured: true,
-    group: "Analytics",
+    group: "Data/Product Analysis",
   },
   {
     title: "E-commerce Revenue Pipeline",
@@ -43,7 +43,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/ecommerce-revenue-pipeline",
     },
     featured: true,
-    group: "Analytics",
+    group: "Data/Product Analysis",
   },
   {
     title: "Fintech Product Analytics",
@@ -54,7 +54,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/fintech-product-analytics",
     },
     featured: true,
-    group: "Analytics",
+    group: "Data/Product Analysis",
   },
   {
     title: "Fintech User Churn Analysis",
@@ -65,7 +65,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/fintech-user-churn-analysis",
     },
     featured: true,
-    group: "Analytics",
+    group: "Data/Product Analysis",
   },
   {
     title: "Supply-Constrained Demand Forecasting Engine",
@@ -77,7 +77,7 @@ export const projectsData = [
         "https://github.com/nachospreafico/supply-constrained-demand-forecasting-engine",
     },
     featured: true,
-    group: "Analytics",
+    group: "Data/Product Analysis",
     underConstruction: false,
   },
   {
@@ -101,7 +101,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/web-analytics-ab-test",
     },
     featured: false,
-    group: "Analytics",
+    group: "Data/Product Analysis",
   },
   {
     title: "SaaS Analytics Dashboard",
@@ -113,7 +113,7 @@ export const projectsData = [
         "https://github.com/nachospreafico/saas-analytics-dashboard-powerbi-sql",
     },
     featured: false,
-    group: "Analytics",
+    group: "Data/Product Analysis",
   },
   {
     title: "Customer Churn Prediction",
@@ -135,7 +135,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/nhs-dashboard",
     },
     featured: false,
-    group: "Analytics",
+    group: "Data/Product Analysis",
   },
   {
     title: "Superstore Sales Dashboard",
@@ -146,7 +146,7 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/superstore-dashboard",
     },
     featured: false,
-    group: "Analytics",
+    group: "Data/Product Analysis",
   },
   {
     title: "Product Engagement Intelligence Dashboard",
@@ -158,7 +158,19 @@ export const projectsData = [
         "https://github.com/nachospreafico/app-feature-adoption-dashboard",
     },
     featured: false,
-    group: "Analytics",
+    group: "Data/Product Analysis",
+  },
+  {
+    title: "Demand Planning Analytics Platform",
+    description:
+      "Production-style dbt project that transforms raw demand planning and retail data into trusted, analytics-ready models for forecasting, inventory, and commercial decision-making.",
+    tech: ["dbt Core", "SQL", "Python", "Power BI"],
+    links: {
+      github: "https://github.com/nachospreafico/demand-planning-dbt",
+    },
+    featured: true,
+    group: "Analytics Engineering",
+    underConstruction: true,
   },
   /*
   {
