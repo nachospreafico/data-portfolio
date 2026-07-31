@@ -170,7 +170,6 @@ export const projectsData = [
     },
     featured: true,
     group: "Analytics Engineering",
-    underConstruction: true,
   },
   /*
   {
