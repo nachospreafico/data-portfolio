@@ -31,7 +31,7 @@ const Hero = () => {
           {/* Profile picture */}
           <img
             src={profilePicture}
-            className="rounded-full max-w-[300px] sm:w-[50%] mx-auto md:mx-0"
+            className="rounded-full max-w-75 sm:w-[50%] mx-auto md:mx-0"
           />
 
           {/* Subheading */}
@@ -67,7 +67,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/Ignacio_Spreafico_Data_Analyst.pdf"
+              href="/Ignacio_Spreafico.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"

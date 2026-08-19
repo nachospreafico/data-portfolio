@@ -37,7 +37,9 @@ const Projects = () => {
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {projectsData
-                .filter((project) => project.group === "Data/Product Analysis")
+                .filter(
+                  (project) => project.group === "Data & Product Analytics",
+                )
                 .map((project, idx) => (
                   <ProjectCard project={project} key={idx} />
                 ))}
@@ -62,7 +64,10 @@ const Projects = () => {
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {projectsData
-                .filter((project) => project.group === "AI & Machine Learning")
+                .filter(
+                  (project) =>
+                    project.group === "Data Science & Machine Learning",
+                )
                 .map((project, idx) => (
                   <ProjectCard project={project} key={idx} />
                 ))}

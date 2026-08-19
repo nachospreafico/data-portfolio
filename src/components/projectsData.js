@@ -1,16 +1,16 @@
 export const projectsData = [
-  {
-    title: "Predicting Falcon 9 First-Stage Reusability",
-    description:
-      "Data-driven prediction of Falcon 9 first-stage reusability to support launch cost estimation and strategic decision-making.",
-    tech: ["Python", "Jupyter Notebooks", "Machine Learning"],
-    links: {
-      github:
-        "https://github.com/nachospreafico/spacex-falcon9-landing-prediction/",
-    },
-    featured: true,
-    group: "AI & Machine Learning",
-  },
+  // {
+  //   title: "Predicting Falcon 9 First-Stage Reusability",
+  //   description:
+  //     "Data-driven prediction of Falcon 9 first-stage reusability to support launch cost estimation and strategic decision-making.",
+  //   tech: ["Python", "Jupyter Notebooks", "Machine Learning"],
+  //   links: {
+  //     github:
+  //       "https://github.com/nachospreafico/spacex-falcon9-landing-prediction/",
+  //   },
+  //   featured: true,
+  //   group: "Data Science & Machine Learning",
+  // },
   {
     title: "Instant Booking A/B Test",
     description:
@@ -21,7 +21,7 @@ export const projectsData = [
         "https://github.com/nachospreafico/instant-booking-ab-test-marketplace",
     },
     featured: true,
-    group: "Data/Product Analysis",
+    group: "Data & Product Analytics",
   },
   {
     title: "Fintech A/B Test",
@@ -32,19 +32,9 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/ab_first_topup",
     },
     featured: true,
-    group: "Data/Product Analysis",
+    group: "Data & Product Analytics",
   },
-  {
-    title: "E-commerce Revenue Pipeline",
-    description:
-      "Production-style data pipeline for cleaning and validating e-commerce transactional data, converting raw inputs into reliable, analysis-ready datasets for business reporting and decision-making.",
-    tech: ["Python", "Power BI"],
-    links: {
-      github: "https://github.com/nachospreafico/ecommerce-revenue-pipeline",
-    },
-    featured: true,
-    group: "Data/Product Analysis",
-  },
+
   {
     title: "Fintech Product Analytics",
     description:
@@ -53,8 +43,8 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/fintech-product-analytics",
     },
-    featured: true,
-    group: "Data/Product Analysis",
+    featured: false,
+    group: "Data & Product Analytics",
   },
   {
     title: "Fintech User Churn Analysis",
@@ -64,21 +54,32 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/fintech-user-churn-analysis",
     },
-    featured: true,
-    group: "Data/Product Analysis",
+    featured: false,
+    group: "Data & Product Analytics",
   },
+  // {
+  //   title: "Supply-Constrained Demand Forecasting Engine",
+  //   description:
+  //     "End-to-end demand forecasting and supply constraint analytics project for a global FMCG environment.",
+  //   tech: ["SQL", "Python", "Machine Learning"],
+  //   links: {
+  //     github:
+  //       "https://github.com/nachospreafico/supply-constrained-demand-forecasting-engine",
+  //   },
+  //   featured: true,
+  //   group: "Data & Product Analytics",
+  //   underConstruction: false,
+  // },
   {
-    title: "Supply-Constrained Demand Forecasting Engine",
+    title: "Customer Churn Prediction",
     description:
-      "End-to-end demand forecasting and supply constraint analytics project for a global FMCG environment.",
-    tech: ["SQL", "Python", "Machine Learning"],
+      "Machine learning pipeline to predict customer churn using the Telco dataset. Includes EDA, feature engineering, model training, and evaluation.",
+    tech: ["Python", "Scikit-learn", "Machine Learning"],
     links: {
-      github:
-        "https://github.com/nachospreafico/supply-constrained-demand-forecasting-engine",
+      github: "https://github.com/nachospreafico/customer-churn-prediction",
     },
     featured: true,
-    group: "Data/Product Analysis",
-    underConstruction: false,
+    group: "Data Science & Machine Learning",
   },
   {
     title: "Stroke Risk Prediction",
@@ -88,78 +89,67 @@ export const projectsData = [
     links: {
       github: "https://github.com/nachospreafico/stroke-risk-prediction",
     },
-    featured: true,
-    group: "AI & Machine Learning",
+    featured: false,
+    group: "Data Science & Machine Learning",
   },
 
-  {
-    title: "Web Analytics A/B Test",
-    description:
-      "This project presents an end-to-end A/B testing analysis using Python, framed around a realistic web analytics use case.",
-    tech: ["Python", "Jupyter Notebooks"],
-    links: {
-      github: "https://github.com/nachospreafico/web-analytics-ab-test",
-    },
-    featured: false,
-    group: "Data/Product Analysis",
-  },
-  {
-    title: "SaaS Analytics Dashboard",
-    description:
-      "End-to-end analytics project using SQL Server and Power BI on a synthetic SaaS dataset. Includes SQL views, EDA, and a professional multi-page dashboard focused on product KPIs.",
-    tech: ["SQL", "Power BI", "Python"],
-    links: {
-      github:
-        "https://github.com/nachospreafico/saas-analytics-dashboard-powerbi-sql",
-    },
-    featured: false,
-    group: "Data/Product Analysis",
-  },
-  {
-    title: "Customer Churn Prediction",
-    description:
-      "Machine learning pipeline to predict customer churn using the Telco dataset. Includes EDA, feature engineering, model training, and evaluation.",
-    tech: ["Python", "Scikit-learn", "Machine Learning"],
-    links: {
-      github: "https://github.com/nachospreafico/customer-churn-prediction",
-    },
-    featured: false,
-    group: "AI & Machine Learning",
-  },
-  {
-    title: "NHS Waitlist Dashboard",
-    description:
-      "This project presents a multi-page interactive Power BI dashboard that analyzes patient waitlist data from the NHS (UK National Health Service) between January 2018 and March 2021.",
-    tech: ["Power BI", "MS Excel"],
-    links: {
-      github: "https://github.com/nachospreafico/nhs-dashboard",
-    },
-    featured: false,
-    group: "Data/Product Analysis",
-  },
-  {
-    title: "Superstore Sales Dashboard",
-    description:
-      "This is an interactive Power BI dashboard I built to analyze the well-known Superstore dataset.",
-    tech: ["Power BI", "MS Excel"],
-    links: {
-      github: "https://github.com/nachospreafico/superstore-dashboard",
-    },
-    featured: false,
-    group: "Data/Product Analysis",
-  },
-  {
-    title: "Product Engagement Intelligence Dashboard",
-    description:
-      "One-page Power BI dashboard analyzing user engagement and feature adoption using a synthetic event-level dataset (~90k events).",
-    tech: ["Power BI"],
-    links: {
-      github:
-        "https://github.com/nachospreafico/app-feature-adoption-dashboard",
-    },
-    featured: false,
-    group: "Data/Product Analysis",
-  },
+  // {
+  //   title: "Web Analytics A/B Test",
+  //   description:
+  //     "This project presents an end-to-end A/B testing analysis using Python, framed around a realistic web analytics use case.",
+  //   tech: ["Python", "Jupyter Notebooks"],
+  //   links: {
+  //     github: "https://github.com/nachospreafico/web-analytics-ab-test",
+  //   },
+  //   featured: false,
+  //   group: "Data & Product Analytics",
+  // },
+  // {
+  //   title: "SaaS Analytics Dashboard",
+  //   description:
+  //     "End-to-end analytics project using SQL Server and Power BI on a synthetic SaaS dataset. Includes SQL views, EDA, and a professional multi-page dashboard focused on product KPIs.",
+  //   tech: ["SQL", "Power BI", "Python"],
+  //   links: {
+  //     github:
+  //       "https://github.com/nachospreafico/saas-analytics-dashboard-powerbi-sql",
+  //   },
+  //   featured: false,
+  //   group: "Data & Product Analytics",
+  // },
+  // {
+  //   title: "NHS Waitlist Dashboard",
+  //   description:
+  //     "This project presents a multi-page interactive Power BI dashboard that analyzes patient waitlist data from the NHS (UK National Health Service) between January 2018 and March 2021.",
+  //   tech: ["Power BI", "MS Excel"],
+  //   links: {
+  //     github: "https://github.com/nachospreafico/nhs-dashboard",
+  //   },
+  //   featured: false,
+  //   group: "Data & Product Analytics",
+  // },
+  // {
+  //   title: "Superstore Sales Dashboard",
+  //   description:
+  //     "This is an interactive Power BI dashboard I built to analyze the well-known Superstore dataset.",
+  //   tech: ["Power BI", "MS Excel"],
+  //   links: {
+  //     github: "https://github.com/nachospreafico/superstore-dashboard",
+  //   },
+  //   featured: false,
+  //   group: "Data & Product Analytics",
+  // },
+  // {
+  //   title: "Product Engagement Intelligence Dashboard",
+  //   description:
+  //     "One-page Power BI dashboard analyzing user engagement and feature adoption using a synthetic event-level dataset (~90k events).",
+  //   tech: ["Power BI"],
+  //   links: {
+  //     github:
+  //       "https://github.com/nachospreafico/app-feature-adoption-dashboard",
+  //   },
+  //   featured: false,
+  //   group: "Data & Product Analytics",
+  // },
   {
     title: "Demand Planning Analytics Platform",
     description:
@@ -169,6 +159,17 @@ export const projectsData = [
       github: "https://github.com/nachospreafico/demand-planning-dbt",
     },
     featured: true,
+    group: "Analytics Engineering",
+  },
+  {
+    title: "E-commerce Revenue Pipeline",
+    description:
+      "Production-style data pipeline for cleaning and validating e-commerce transactional data, converting raw inputs into reliable, analysis-ready datasets for business reporting and decision-making.",
+    tech: ["Python", "Power BI"],
+    links: {
+      github: "https://github.com/nachospreafico/ecommerce-revenue-pipeline",
+    },
+    featured: false,
     group: "Analytics Engineering",
   },
   /*
