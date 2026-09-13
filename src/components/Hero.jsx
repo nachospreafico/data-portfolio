@@ -3,7 +3,7 @@ import profilePicture from "../assets/profile_picture.png";
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center">
-      <div className="max-w-6xl mx-auto px-6 w-full">
+      <div className="max-w-6xl mx-auto px-6 w-full py-20">
         <div className="flex flex-col gap-6">
           {/* Eyebrow */}
           <span className="text-sm text-slate-500 tracking-wide">

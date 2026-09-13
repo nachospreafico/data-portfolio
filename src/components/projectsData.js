@@ -172,6 +172,7 @@ export const projectsData = [
     featured: false,
     group: "Analytics Engineering",
   },
+  ,
   /*
   {
     title: "Streamlit KPI Dashboard",
@@ -193,5 +194,16 @@ export const projectsData = [
     },
     featured: false,
   }
-  */
+  */ {
+    title: "Supply Delay Alerts",
+    description:
+      "Python automation for validating order data, identifying overdue deliveries, and generating delay reports using a realistic synthetic supply chain dataset.",
+    tech: ["pandas", "pytest"],
+    links: {
+      github: "https://github.com/nachospreafico/supply-delay-alerts/",
+    },
+    featured: true,
+    group: "Automation",
+    underConstruction: true,
+  },
 ];

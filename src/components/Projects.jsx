@@ -12,8 +12,9 @@ const Projects = () => {
           </h2>
 
           <p className="mt-2 text-slate-600 max-w-2xl">
-            A selection of data analytics, product analytics, and
-            experimentation projects focused on real-world decision-making.
+            A selection of data and product analytics, data science, AI and
+            Machine Learning, and automation projects focused on real-world
+            decision-making.
           </p>
         </div>
 
@@ -93,6 +94,31 @@ const Projects = () => {
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {projectsData
                 .filter((project) => project.group === "Analytics Engineering")
+                .map((project, idx) => (
+                  <ProjectCard project={project} key={idx} />
+                ))}
+            </div>
+          </section>
+
+          {/* Automation */}
+          <section>
+            <div className="mb-6 flex items-center justify-between gap-4">
+              <div>
+                <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-slate-900">
+                  Automation Projects
+                </h3>
+                <p className="mt-1 text-sm text-slate-500">
+                  Workflow automation, process optimization, and solutions that
+                  streamline business operations.
+                </p>
+              </div>
+
+              <div className="hidden sm:block h-px flex-1 bg-slate-200" />
+            </div>
+
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {projectsData
+                .filter((project) => project.group === "Automation")
                 .map((project, idx) => (
                   <ProjectCard project={project} key={idx} />
                 ))}
