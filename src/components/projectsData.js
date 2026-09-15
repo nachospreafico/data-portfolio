@@ -204,6 +204,6 @@ export const projectsData = [
     },
     featured: true,
     group: "Automation",
-    underConstruction: true,
+    underConstruction: false,
   },
 ];
