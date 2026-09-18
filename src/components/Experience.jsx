@@ -25,8 +25,8 @@ const Experience = () => {
             max-w-2xl
           "
           >
-            Professional experience focused on data analysis, forecasting,
-            product metrics, and decision support in global organizations.
+            Professional experience across data analysis, forecasting, business
+            intelligence, and automation in global organizations.
           </p>
         </div>
 

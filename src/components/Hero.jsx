@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="flex flex-col gap-6">
           {/* Eyebrow */}
           <span className="text-sm text-slate-500 tracking-wide">
-            Data & Business Analyst
+            Data Analyst · Analytics · Automation
           </span>
 
           {/* Headline */}
@@ -44,9 +44,12 @@ const Hero = () => {
             leading-relaxed
           "
           >
-            I’m Nacho, a <strong>Data and Business analyst</strong> with
-            experience in forecasting, experimentation, and analytics systems
-            that directly support business and product decisions at scale.
+            I’m Nacho, a <strong>Data Analyst</strong> with experience in
+            forecasting, business intelligence, and analytics automation,{" "}
+            <strong>
+              building data solutions that support real-world business
+              decisions.
+            </strong>
           </p>
 
           {/* CTAs */}
@@ -63,7 +66,7 @@ const Hero = () => {
                 transition
               "
             >
-              View projects
+              Explore my work
             </a>
 
             <a
@@ -96,7 +99,7 @@ const Hero = () => {
                 transition
               "
             >
-              Get in touch
+              Contact me
             </a>
           </div>
         </div>

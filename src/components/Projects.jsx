@@ -1,6 +1,33 @@
 import ProjectCard from "./ProjectCard";
 import { projectsData } from "./projectsData";
 
+const projectSections = [
+  {
+    title: "Analytics Engineering",
+    description:
+      "Data transformation, modeling, testing, and analytics-ready datasets.",
+    group: "Analytics Engineering",
+  },
+  {
+    title: "Analytics Projects",
+    description:
+      "Business analysis, experimentation, dashboards, and decision support.",
+    group: "Data & Product Analytics",
+  },
+  {
+    title: "Automation",
+    description:
+      "Python workflows that replace repetitive processes with reliable, testable systems.",
+    group: "Automation",
+  },
+  {
+    title: "Data Science & Machine Learning",
+    description:
+      "Predictive modeling, statistical learning, and end-to-end ML workflows.",
+    group: "Data Science & Machine Learning",
+  },
+];
+
 const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-slate-50">
@@ -12,118 +39,45 @@ const Projects = () => {
           </h2>
 
           <p className="mt-2 text-slate-600 max-w-2xl">
-            A selection of data and product analytics, data science, AI and
-            Machine Learning, and automation projects focused on real-world
-            decision-making.
+            Selected projects across analytics, data science, analytics
+            engineering, and automation, built around real-world business
+            problems.
           </p>
         </div>
 
-        {/* Projects sections */}
+        {/* Project categories */}
         <div className="flex flex-col gap-14">
-          {/* Analytics */}
-          <section>
-            <div className="mb-6 flex items-center justify-between gap-4">
-              <div>
-                <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-slate-900">
-                  Data & Product Projects
-                </h3>
-                <p className="mt-1 text-sm text-slate-500">
-                  Dashboards, business analysis, product analytics, and
-                  experimentation.
-                </p>
-              </div>
+          {projectSections.map((section) => {
+            const projects = projectsData.filter(
+              (project) => project.group === section.group,
+            );
 
-              <div className="hidden sm:block h-px flex-1 bg-slate-200" />
-            </div>
+            if (projects.length === 0) return null;
 
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {projectsData
-                .filter(
-                  (project) => project.group === "Data & Product Analytics",
-                )
-                .map((project, idx) => (
-                  <ProjectCard project={project} key={idx} />
-                ))}
-            </div>
-          </section>
+            return (
+              <section key={section.group}>
+                <div className="mb-6 flex items-center justify-between gap-4">
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-slate-900">
+                      {section.title}
+                    </h3>
 
-          {/* AI & Machine Learning */}
-          <section>
-            <div className="mb-6 flex items-center justify-between gap-4">
-              <div>
-                <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-slate-900">
-                  AI & Machine Learning Projects
-                </h3>
-                <p className="mt-1 text-sm text-slate-500">
-                  Predictive modeling, machine learning workflows, and applied
-                  AI projects.
-                </p>
-              </div>
+                    <p className="mt-1 text-sm text-slate-500">
+                      {section.description}
+                    </p>
+                  </div>
 
-              <div className="hidden sm:block h-px flex-1 bg-slate-200" />
-            </div>
+                  <div className="hidden sm:block h-px flex-1 bg-slate-200" />
+                </div>
 
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {projectsData
-                .filter(
-                  (project) =>
-                    project.group === "Data Science & Machine Learning",
-                )
-                .map((project, idx) => (
-                  <ProjectCard project={project} key={idx} />
-                ))}
-            </div>
-          </section>
-
-          {/* Analytics Engineering */}
-          <section>
-            <div className="mb-6 flex items-center justify-between gap-4">
-              <div>
-                <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-slate-900">
-                  Analytics Engineering Projects
-                </h3>
-                <p className="mt-1 text-sm text-slate-500">
-                  Data transformation, dimensional modeling, and modern
-                  analytics engineering projects.
-                </p>
-              </div>
-
-              <div className="hidden sm:block h-px flex-1 bg-slate-200" />
-            </div>
-
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {projectsData
-                .filter((project) => project.group === "Analytics Engineering")
-                .map((project, idx) => (
-                  <ProjectCard project={project} key={idx} />
-                ))}
-            </div>
-          </section>
-
-          {/* Automation */}
-          <section>
-            <div className="mb-6 flex items-center justify-between gap-4">
-              <div>
-                <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-slate-900">
-                  Automation Projects
-                </h3>
-                <p className="mt-1 text-sm text-slate-500">
-                  Workflow automation, process optimization, and solutions that
-                  streamline business operations.
-                </p>
-              </div>
-
-              <div className="hidden sm:block h-px flex-1 bg-slate-200" />
-            </div>
-
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {projectsData
-                .filter((project) => project.group === "Automation")
-                .map((project, idx) => (
-                  <ProjectCard project={project} key={idx} />
-                ))}
-            </div>
-          </section>
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  {projects.map((project) => (
+                    <ProjectCard project={project} key={project.title} />
+                  ))}
+                </div>
+              </section>
+            );
+          })}
         </div>
       </div>
     </section>

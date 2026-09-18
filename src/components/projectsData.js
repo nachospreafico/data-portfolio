@@ -12,6 +12,29 @@ export const projectsData = [
   //   group: "Data Science & Machine Learning",
   // },
   {
+    title: "Demand Planning Analytics Platform",
+    description:
+      "Production-style dbt project that transforms raw demand planning and retail data into trusted, analytics-ready models for forecasting, inventory, and commercial decision-making.",
+    tech: ["dbt Core", "SQL", "Python", "Power BI"],
+    links: {
+      github: "https://github.com/nachospreafico/demand-planning-dbt",
+    },
+    featured: true,
+    group: "Analytics Engineering",
+  },
+  {
+    title: "Supply Delay Alerts",
+    description:
+      "Python automation for validating order data, identifying overdue deliveries, and generating delay reports using a realistic synthetic supply chain dataset.",
+    tech: ["pandas", "pytest"],
+    links: {
+      github: "https://github.com/nachospreafico/supply-delay-alerts/",
+    },
+    featured: true,
+    group: "Automation",
+    underConstruction: false,
+  },
+  {
     title: "Instant Booking A/B Test",
     description:
       "A/B test analysis of an Instant Booking feature in a two-sided marketplace, evaluating its impact on booking conversion and supply-side health, with a focus on balancing user experience improvements and ecosystem stability.",
@@ -23,17 +46,18 @@ export const projectsData = [
     featured: true,
     group: "Data & Product Analytics",
   },
-  {
-    title: "Fintech A/B Test",
-    description:
-      "End-to-end A/B testing project simulating a Revolut-style product experiment. Covers experiment design, hypothesis testing, confidence intervals, effect size, and business interpretation.",
-    tech: ["Python", "Jupyter", "A/B Testing"],
-    links: {
-      github: "https://github.com/nachospreafico/ab_first_topup",
-    },
-    featured: true,
-    group: "Data & Product Analytics",
-  },
+
+  // {
+  //   title: "Fintech A/B Test",
+  //   description:
+  //     "End-to-end A/B testing project simulating a Revolut-style product experiment. Covers experiment design, hypothesis testing, confidence intervals, effect size, and business interpretation.",
+  //   tech: ["Python", "Jupyter", "A/B Testing"],
+  //   links: {
+  //     github: "https://github.com/nachospreafico/ab_first_topup",
+  //   },
+  //   featured: true,
+  //   group: "Data & Product Analytics",
+  // },
 
   {
     title: "Fintech Product Analytics",
@@ -46,17 +70,17 @@ export const projectsData = [
     featured: false,
     group: "Data & Product Analytics",
   },
-  {
-    title: "Fintech User Churn Analysis",
-    description:
-      "End-to-end churn analysis project for a subscription-based fintech platform, combining SQL, Python, statistical testing, and business-oriented analytics to identify behavioral drivers of high-value user churn.",
-    tech: ["SQL", "Python", "Power BI"],
-    links: {
-      github: "https://github.com/nachospreafico/fintech-user-churn-analysis",
-    },
-    featured: false,
-    group: "Data & Product Analytics",
-  },
+  // {
+  //   title: "Fintech User Churn Analysis",
+  //   description:
+  //     "End-to-end churn analysis project for a subscription-based fintech platform, combining SQL, Python, statistical testing, and business-oriented analytics to identify behavioral drivers of high-value user churn.",
+  //   tech: ["SQL", "Python", "Power BI"],
+  //   links: {
+  //     github: "https://github.com/nachospreafico/fintech-user-churn-analysis",
+  //   },
+  //   featured: false,
+  //   group: "Data & Product Analytics",
+  // },
   // {
   //   title: "Supply-Constrained Demand Forecasting Engine",
   //   description:
@@ -69,7 +93,7 @@ export const projectsData = [
   //   featured: true,
   //   group: "Data & Product Analytics",
   //   underConstruction: false,
-  // },
+  // },*/
   {
     title: "Customer Churn Prediction",
     description:
@@ -150,17 +174,7 @@ export const projectsData = [
   //   featured: false,
   //   group: "Data & Product Analytics",
   // },
-  {
-    title: "Demand Planning Analytics Platform",
-    description:
-      "Production-style dbt project that transforms raw demand planning and retail data into trusted, analytics-ready models for forecasting, inventory, and commercial decision-making.",
-    tech: ["dbt Core", "SQL", "Python", "Power BI"],
-    links: {
-      github: "https://github.com/nachospreafico/demand-planning-dbt",
-    },
-    featured: true,
-    group: "Analytics Engineering",
-  },
+
   {
     title: "E-commerce Revenue Pipeline",
     description:
@@ -172,7 +186,6 @@ export const projectsData = [
     featured: false,
     group: "Analytics Engineering",
   },
-  ,
   /*
   {
     title: "Streamlit KPI Dashboard",
@@ -194,16 +207,6 @@ export const projectsData = [
     },
     featured: false,
   }
-  */ {
-    title: "Supply Delay Alerts",
-    description:
-      "Python automation for validating order data, identifying overdue deliveries, and generating delay reports using a realistic synthetic supply chain dataset.",
-    tech: ["pandas", "pytest"],
-    links: {
-      github: "https://github.com/nachospreafico/supply-delay-alerts/",
-    },
-    featured: true,
-    group: "Automation",
-    underConstruction: false,
-  },
+  */
+  ,
 ];

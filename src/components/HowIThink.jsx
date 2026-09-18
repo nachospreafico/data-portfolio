@@ -10,8 +10,8 @@ const HowIThink = () => {
             How I Think
           </h2>
           <p className="mt-2 text-slate-600 max-w-2xl">
-            My approach to product analytics, experimentation, and
-            decision-making under uncertainty.
+            My approach to analytics, problem-solving, and data-driven
+            decision-making.
           </p>
         </div>
 
@@ -22,9 +22,9 @@ const HowIThink = () => {
               1. Start with the Decision
             </h3>
             <p className="mt-2 text-slate-600">
-              Every analysis should support a concrete decision. I clarify the
-              objective, the behavior we want to change, and who is impacted
-              before writing a single query.
+              Every analysis should answer a real question. I first clarify the
+              decision to be made, the business context, and what success looks
+              like before reaching for the data.
             </p>
           </div>
 
@@ -33,19 +33,20 @@ const HowIThink = () => {
               2. Define Success Properly
             </h3>
             <p className="mt-2 text-slate-600">
-              Metrics form a system. I align on the North Star, primary KPI,
-              guardrails, and segment-level effects to avoid local optimization.
+              A metric is only useful when it represents what actually matters.
+              I define clear KPIs, understand their drivers, and use supporting
+              metrics to avoid optimizing one number in isolation.
             </p>
           </div>
 
           <div>
             <h3 className="font-semibold text-slate-900">
-              3. Separate Correlation from Causation
+              3. Separate Signal from Noise
             </h3>
             <p className="mt-2 text-slate-600">
-              I distinguish descriptive insights from causal inference and favor
-              experimentation when possible. When not, I identify biases and
-              confounders before recommending action.
+              I distinguish patterns worth acting on from random variation, and
+              correlation from causation. When certainty isn't possible, I make
+              assumptions and limitations explicit.
             </p>
           </div>
 
@@ -54,9 +55,9 @@ const HowIThink = () => {
               4. Think in Trade-offs
             </h3>
             <p className="mt-2 text-slate-600">
-              Product decisions create second-order effects. I consider
-              short-term impact, long-term ecosystem health, and potential
-              unintended consequences.
+              Business decisions rarely optimize everything at once. I consider
+              impact, cost, risk, and unintended consequences rather than
+              looking at a metric in isolation.
             </p>
           </div>
 
@@ -65,16 +66,16 @@ const HowIThink = () => {
               5. From Insight to Action
             </h3>
             <p className="mt-2 text-slate-600">
-              I conclude with a clear recommendation, expected impact, risk
-              assessment, and monitoring plan. Analysis should move the product
-              forward.
+              Analysis shouldn't end with a dashboard or a number. I translate
+              findings into a clear recommendation, explain the expected impact
+              and risks, and define how results should be monitored.
             </p>
           </div>
         </div>
 
         <p className="max-w-2xl mx-auto mt-16 text-slate-700 text-center leading-relaxed italic">
-          I aim to reduce uncertainty, and help teams move forward with
-          confidence
+          I aim to reduce uncertainty and help teams make better decisions with
+          confidence.
         </p>
       </div>
     </section>

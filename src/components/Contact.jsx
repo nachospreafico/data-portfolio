@@ -26,9 +26,9 @@ const Contact = () => {
             leading-relaxed
           "
           >
-            Interested in my work, a collaboration, or just want to talk data,
-            product, or analytics? <br></br> The easiest way to reach me is via
-            email, LinkedIn or GitHub.
+            Interested in my work, a collaboration, or just want to talk data
+            and analytics? <br></br>The easiest way to reach me is via email or
+            LinkedIn. You can also explore more of my work on GitHub.
           </p>
 
           {/* Contact links */}

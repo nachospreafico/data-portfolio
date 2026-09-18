@@ -9,7 +9,7 @@ export const experienceData = [
       "Owned global demand planning analytics for multi-million-unit seasonal giftset campaigns across Prestige and Consumer Beauty, influencing stock allocation and launch readiness across dozens of markets.",
       "Established a structured forecast challenge process, reviewing market submissions against historical performance to improve realism, accountability, and downstream supply decisions.",
       "Architected and deployed a Quota vs Forecast Power BI dashboard (SQL + Python pipelines) adopted by global stakeholders, driving double-digit reductions in Value at Risk (VAR).",
-      "Applied advanced statistical analysis and scenario modeling to improve forecast accuracy and decision-making under high uncertainty.",
+      "Applied statistical analysis and scenario modeling to evaluate forecast performance and support decisions under uncertainty.",
       "Built and productionized Python automation pipelines to consolidate and transform VAR data, reducing manual processing time by ~80% and accelerating executive decision cycles.",
     ],
 
