@@ -208,5 +208,16 @@ export const projectsData = [
     featured: false,
   }
   */
-  ,
+  {
+    title: "Clinical Trial Data Quality Monitor",
+    description:
+      "Clinical trial metadata quality monitoring using public ClinicalTrials.gov data. Currently includes Python extraction, a tested completeness rule and a structured review queue.",
+    tech: ["Python", "pytest", "REST API"],
+    links: {
+      github: "https://github.com/nachospreafico/clinical-trial-data-quality",
+    },
+    featured: false,
+    group: "Analytics Engineering",
+    underConstruction: true,
+  },
 ];
