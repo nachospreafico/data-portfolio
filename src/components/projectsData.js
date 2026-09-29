@@ -211,13 +211,12 @@ export const projectsData = [
   {
     title: "Clinical Trial Data Quality Monitor",
     description:
-      "Clinical trial metadata quality monitoring using public ClinicalTrials.gov data. Currently includes Python extraction, a tested completeness rule and a structured review queue.",
-    tech: ["Python", "pytest", "REST API"],
+      "Clinical trial data quality pipeline using Python, SQL and DuckDB to detect potential issues in ClinicalTrials.gov metadata and generate a prioritized review queue.",
+    tech: ["Python", "pytest", "REST API", "DuckDB"],
     links: {
       github: "https://github.com/nachospreafico/clinical-trial-data-quality",
     },
     featured: false,
     group: "Analytics Engineering",
-    underConstruction: true,
   },
 ];
