@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <p className="text-xs text-center text-slate-500 bg-slate-50">
+    <p className="text-xs text-center text-slate-500">
       © {new Date().getFullYear()}{" "}
       <a
         href="https://www.linkedin.com/in/ignacio-spreafico"

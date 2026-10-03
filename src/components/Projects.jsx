@@ -30,7 +30,7 @@ const projectSections = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-slate-50">
+    <section id="projects" className="py-20">
       <div className="max-w-6xl mx-auto px-6">
         {/* Section header */}
         <div className="mb-14">
